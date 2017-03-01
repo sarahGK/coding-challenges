@@ -1,0 +1,6 @@
+1. Given a list of Integers, where every number appears an even number of times in the list, except for one number that appears an odd number of times in the list,
+write readable, sustainable code that finds the number which appears an odd number of times in the list.
+
+2.Given you have 11 coins, that all weigh exactly the same, except for one - this one is heavier.
+Given you have a balance scale - similar to what the goddess of justice has in her hand.
+Write readable and sustainable code that finds the heavy coin.
