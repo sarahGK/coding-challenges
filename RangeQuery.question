@@ -1,0 +1,9 @@
+Range Query for Text
+A text range could be [AaA - BaB] (where “[“ denotes edge included and “(“ denotes edge not included).
+A string “AA” would fall before this range range. A string “Aaab” would fall inside this range.
+A string “Cblahblah” would fall after this range.
+Addition of a range “[Aac - CaC]” to the above set would make the tracked set as follows: [AaA - CaC];
+Addition of a range “[Dd - Df]” to the above set would make the tracked set as follows: [AaA - CaC] , [Dd - Df];
+Deletion of a range “[bb - CA]” from the above set would make the tracked set as follows: [AaA - bb), (CA - CaC] , [Dd - Df]
+Note that the tracked range can be discontinuous.
+Making the API thread safe wherever appropriate would be a plus.
