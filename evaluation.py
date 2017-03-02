@@ -18,9 +18,9 @@ def mul_div(result):
   if len(result) == 1 :
     return result[0]
   else :
+    
     index = 0
     last = []
-
     while index < len(result) :
       ch = result[index]
 
@@ -49,9 +49,9 @@ def add_sub(last):
   if len(last) == 1:
     return last[0]
   else:
+    
     evaluation = last[0]
     index = 1
-
     while index < len(last) -1 :
       if last[index] == '+':
         evaluation = evaluation + last[index+1]
